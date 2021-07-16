@@ -60,5 +60,5 @@ make
   | 48ms | 24ms  | 12ms  | 13ms
 
 # 8. Reference
-[1] https://github.com/wang-xinyu/tensorrtx
+[1] https://github.com/wang-xinyu/tensorrtx </br>
 [2] https://github.com/oreo-lp/unet-tensorrt
