@@ -2,7 +2,9 @@
     <img src="resouces/rst.png" , width="800" alt><br>
     <b><a>Seal Removal</a></b>
 </div>
+
 # 1. Real Removal (YOLOv5 + UNet)
+
 本项目的目标是去除图像上的印章，后续可以用在OCR等任务中，对图像上的文字进行识别（相当于在ORC之前去掉图像中的噪声）。印章去除的主要思路是：首先使用YOLOv5目标检测算法识别图像中的印章，然后再使用UNet语义分割技术对印章进行去除。为了提高检测速度，使用TensorRT技术对YOLOv5和UNet算法进行加速。<br>
 
 # 2. Requirements
